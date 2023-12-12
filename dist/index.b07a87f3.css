@@ -369,25 +369,34 @@ body {
 }
 
 .footer {
+  width: 100%;
+  height: 300px;
   background-color: #181823;
+  padding: 42px;
 }
 
 .footer_box {
   width: 100%;
-  height: 300px;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  padding: 10px 72px 72px;
   display: flex;
 }
 
+.footer_title {
+  padding-bottom: 20px;
+}
+
+.footer_text {
+  color: var(--color-textParagraph);
+}
+
 .footer_box-nav {
-  width: 400px;
-  height: 100px;
+  width: auto;
+  height: 100%;
 }
 
 .footer_nav-list {
-  height: 100%;
+  height: 50px;
   width: 200px;
   justify-content: flex-start;
   align-items: center;
@@ -402,7 +411,11 @@ body {
 .footer_nav-link {
   height: 100%;
   width: 100%;
-  fill: #c1a1af;
+  fill: #18b733;
+}
+
+.footer_nav-link:hover {
+  fill: green;
 }
 
 .footer_icon {
@@ -411,8 +424,6 @@ body {
 }
 
 .footer_img-wechat {
-  width: 25%;
-  height: 25%;
   border-radius: 10px;
 }
 

@@ -1,36 +1,45 @@
 .footer{
-   
+   width: 100%;
     background-color: #181823;
+    height: 300px;
+    padding: 42px;
 }
 .footer_box{
-    width: 100%;
-    height: 300px;
-    padding: 72px;
-    padding-top: 10px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    width: 100%;    
 }
+.footer_title{
+    padding-bottom: 20px;
+}
+.footer_text{
+    color: var(--color-textParagraph);
+}
+
 .footer_box-nav{
-    width: 400px;
-    height: 100px;
+    width: auto;
+    height: 100%;
 }
 .footer_nav-list{
-    height: 100%;
+    height: 50px;
     width: 200px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     gap: 40px;
+   
 }
 .footer_nav-items{
     height: 40px;
-    ;
 }
 .footer_nav-link{
     height: 100%;
     width: 100%;
-    fill: #C1A1AF;
+    fill: rgb(24, 183, 51);
+    &:hover{
+        fill: green;
+    }
 }
 .footer_icon{
     width: 100%;
@@ -38,6 +47,4 @@
 }
 .footer_img-wechat{
     border-radius: 10px;
-    width: 25%;
-    height: 25%;
 }
