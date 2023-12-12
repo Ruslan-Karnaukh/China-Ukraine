@@ -1,2 +1,9 @@
-// @import './common';
-// @import './example';
+@import './base/reset';
+@import './base/comand';
+@import './components/variables';
+@import './utils/containers';
+@import './utils/textStyles';
+@import './components/isHidden';
+@import './loyaut/index';
+
+

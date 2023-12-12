@@ -1,0 +1,45 @@
+.cargo{
+    background-color: #FFF3E4;
+}
+.cargo_box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 350px;
+    
+}
+.cargo_box:last-child{
+    flex-direction: row-reverse;
+}
+.cargo_fly-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 30px;
+    padding: 72px;
+    
+    width: 50%;
+    height: 100%;
+}
+.cargo_list{
+    padding-bottom: 70px;
+}
+.cargo_title{
+    font-size: 45px;
+    color: #181823;
+}
+.cargo_items{
+    font-size: 14px;
+    color: #5B6876;
+}
+.cargo_img-box{
+    height: 100%;
+    width: 50%;
+}
+.cargo_img{
+    width: 100%;
+    height: 100%;
+}
+
