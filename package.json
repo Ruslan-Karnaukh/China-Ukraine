@@ -5,7 +5,7 @@
   "homepage": "https://github.com/Ruslan-Karnaukh/china-ukraina",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /china-uknaina/"
+    "build": "parcel build src/*.html --public-url /china-ukraina/"
   },
   "repository": {
     "type": "git",
