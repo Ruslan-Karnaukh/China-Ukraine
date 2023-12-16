@@ -1,19 +1,36 @@
 .footer{
     background-color: #181823;
-    height: 300px;
-    padding: 42px;
+    height: 350px;
+    // padding: 42px;
 }
 .footer_box{
-    display: flex;
+    width: 100%;   
+    @media screen and(min-width: 1200px) {
+        display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;    
+    }
+}
+.footer_box-text{
+    padding-bottom: 20px; 
 }
 .footer_title{
-    padding-bottom: 20px;
+    // padding-bottom: 10px;
+    font-size: 14px;
+    @media screen and(min-width: 1200px) {
+   font-size: 18px;
+    }
 }
 .footer_text{
     color: var(--color-textParagraph);
+    font-size: 10px;
+    padding-bottom: 10px;
+    @media screen and(min-width: 1200px) {
+        font-size: 18px;
+         }
+}
+.footer_text-link{
+    padding-bottom: 10px;
 }
 
 .footer_box-nav{
@@ -21,16 +38,17 @@
     height: 100%;
 }
 .footer_nav-list{
-    height: 50px;
+    height: 20px;
     width: 200px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    gap: 40px;
+    gap: 20px;
+    margin-bottom: 20px;
    
 }
 .footer_nav-items{
-    height: 40px;
+    height: 20px;
 }
 .footer_nav-link{
     height: 100%;
@@ -41,9 +59,11 @@
     }
 }
 .footer_icon{
-    width: 100%;
-    height: 100%;
+    width: 15px;
+    height: 15px;
 }
 .footer_img-wechat{
     border-radius: 10px;
+    width: 200px;
+    height: 150px;
 }

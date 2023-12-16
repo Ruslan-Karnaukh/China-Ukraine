@@ -1,7 +1,11 @@
 .about{
-    height: 1000px;
-    padding: 72px;
+    height: 950px;
+    // padding: 72px;
     // padding-top: 120px;
+}
+.about_block-title{
+    // height: 300px;
+    // padding: 10px 0;
 }
 .about_text-paragraph{
     text-transform: uppercase;
@@ -9,13 +13,23 @@
     color: var(--color-textParagraph);
     opacity: 0.7;
     margin-bottom: 8px;
+    font-size: 12px;
+    @media screen and (min-width:1200px){
+        font-size: 14px;
+    }
 }
 .about_text-title{
-    width: 620px;
+    // width: 620px;
+    font-size: 16px;
     font-weight: 900;
-    letter-spacing: 1.5;
-    line-height: 1.5;
-    padding-bottom: 100px;
+    letter-spacing: 1;
+    line-height: 1.2;
+    padding-bottom: 20px;
+    @media screen and (min-width:1200px){
+        font-size: 18px;
+        letter-spacing: 1.5;
+        line-height: 1.5;
+    }
 }
 .about_block{
     display: block;
@@ -24,21 +38,20 @@
     padding-bottom: 40px;
 }
 .about_list{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 100%;
-    height: 350px;
-    gap: 30px;
+ 
+    width: 100%;    
     @media screen and (min-width:1200px){
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
         height: 250px;
         gap: 70px;
     }
 }
 .about_items{
-    height:100%;
-    width: calc(100% / 2 - 30px);
+    padding-bottom: 20px;
+    
     @media screen and (min-width:1200px){
         width: calc(100% / 2 - 70px);
     }
@@ -46,9 +59,9 @@
 
 .about_img{
     // opacity: 0.;
-    width: 60px;
-    height: 60px;
-    border-radius: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
     box-shadow: 0 10px 24px rgb(24, 183, 51), 0 5px 5px rgb(24, 183, 51);
     @media screen and (min-width:1200px){
         width: 70px;
@@ -61,13 +74,14 @@
 
 .about_items-title{
     padding-top: 20px;
-    padding-bottom: 22px;
+    padding-bottom: 20px;
+    font-size: 14px;
 }
 .about_items-text{
-    font-size: 14px;
+    font-size: 10px;
     letter-spacing: 0.8;
     color: var(--color-textParagraph);
-    opacity: 0.8;
+    opacity: 0.9;
     @media screen and (min-width:1200px){
         font-size: 16px;
     }
