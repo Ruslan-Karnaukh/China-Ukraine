@@ -1,0 +1,2 @@
+document.addEventListener("DOMContentLoaded",(function(){var e=document.querySelector(".toggler");e&&localStorage.getItem("checkboxState")&&(e.checked="true"===localStorage.getItem("checkboxState")),e.addEventListener("change",(function(){localStorage.setItem("checkboxState",e.checked)})),document.querySelectorAll("a").forEach((function(t){t.addEventListener("click",(function(t){e.checked=!1,localStorage.setItem("checkboxState",e.checked)}))}))}));
+//# sourceMappingURL=index.f375f041.js.map
