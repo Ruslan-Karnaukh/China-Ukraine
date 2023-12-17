@@ -7,9 +7,13 @@
     width: 100%;
     padding-top: 30px;
     background-image: linear-gradient(to right,  #181823 60%, #000000cc 10%);
+
+    @media screen and(min-width:768px){
+        height: 450px;
+        // padding-top: 80px;
+    }
    
     @media screen and(min-width:1200px){
-        height: 650px;
         padding-top: 80px;
     }
     
@@ -19,6 +23,11 @@
     bottom: 0;
     left: 30px;
     // height: 300px;
+    @media screen and(min-width:768px){
+      
+        bottom: 0;
+        left: 140px; 
+    }
     @media screen and(min-width:1200px){
       
         bottom: 0;
@@ -28,9 +37,9 @@
 .hero_img{
     width: 200px;
     height: 250px;
-    @media screen and (min-width:1200px){
-        width: 450px;
-    height: 550px;
+    @media screen and (min-width:768px){
+        width: 350px;
+    height: 450px;
     }
 }
 .hero_text{
@@ -39,10 +48,17 @@
     right: 5px; 
     z-index: 99;
     width: 200px;
+    @media screen and(min-width:768px){
+        bottom: 0px;
+        left: 50%;
+        width: 350px;
+        height: 320px;
+       
+        }
     @media screen and(min-width:1200px){
-    bottom: 50px;
+        
     left: 520px;
-    width: 800px;
+    width: 390px;
     height: 320px;
    
     }
@@ -57,8 +73,11 @@
     line-height: 1.2;
     letter-spacing: 0.7;
     padding-bottom: 47px;
+    @media screen and(min-width:768px){
+        font-size: 36px;    
+    }
     @media screen and(min-width:1200px){
-        font-size: 78px;    
+        // font-size: 78px;    
     }
 }
 .hero_paragraph{
